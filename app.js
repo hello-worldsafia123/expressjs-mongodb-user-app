@@ -77,3 +77,5 @@ async function getUser(req, res, next) {
     res.user = user;
     next();
 }
+
+app.listen(3000,() => console.log('Server started...'));
